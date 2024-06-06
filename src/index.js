@@ -1,5 +1,6 @@
 import MyButton from "./MyButton.vue";
 import MyInput from "./MyInput.vue";
+import { useMousePosition } from "./useMousePosition";
 
 function injectStyles() {
   if (typeof window !== "undefined" && window.document) {
@@ -12,4 +13,4 @@ function injectStyles() {
 
 injectStyles();
 
-export { MyButton, MyInput };
+export { MyButton, MyInput, useMousePosition };
