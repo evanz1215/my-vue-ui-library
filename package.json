@@ -2,8 +2,8 @@
   "name": "my-vue-ui-library",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/my-vue-ui-library.umd.js",
-  "module": "dist/my-vue-ui-library.es.js",
+  "main": "dist/vuetestui.umd.js",
+  "module": "dist/vuetestui.es.js",
   "files": [
     "dist"
   ],

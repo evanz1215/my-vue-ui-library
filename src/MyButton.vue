@@ -17,7 +17,7 @@ export default {
 
 <style scoped>
 .btn {
-  background-color: green;
+  background-color: aqua;
   font-size: 22px;
 }
 </style>

@@ -7,7 +7,7 @@ export default defineConfig({
     lib: {
       entry: "./src/index.js",
       name: "MyVueUILibrary",
-      fileName: (format) => `my-vue-ui-library.${format}.js`,
+      fileName: (format) => `vuetestui.${format}.js`,
     },
     rollupOptions: {
       external: ["vue"],
